@@ -7,13 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2101D1E71EAF154700F8997C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2101D1E61EAF154700F8997C /* AssetsLibrary.framework */; };
+		2101D1E91EAF154E00F8997C /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2101D1E81EAF154E00F8997C /* Photos.framework */; };
+		21118ECD1E9B9151008A9D2A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21118ECC1E9B9151008A9D2A /* SignupViewController.swift */; };
+		211B7D6E1EBAEEEB00793CDC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211B7D6D1EBAEEEB00793CDC /* MapKit.framework */; };
+		211B7D701EBAEF0000793CDC /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211B7D6F1EBAEF0000793CDC /* NetworkExtension.framework */; };
+		211B7D721EBC411900793CDC /* NewSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B7D711EBC411900793CDC /* NewSettingTableViewController.swift */; };
+		211E078E1EC4333500915E5E /* DDForumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E078B1EC4333500915E5E /* DDForumData.swift */; };
+		211E078F1EC4333500915E5E /* DDForumDDForumListingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E078C1EC4333500915E5E /* DDForumDDForumListingModel.swift */; };
+		211E07901EC4333500915E5E /* DDForumSeoSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E078D1EC4333500915E5E /* DDForumSeoSetting.swift */; };
+		21228E291EC44A2100E545D6 /* ForumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21228E271EC44A2100E545D6 /* ForumTableViewCell.swift */; };
+		21228E2A1EC44A2100E545D6 /* ForumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21228E281EC44A2100E545D6 /* ForumTableViewCell.xib */; };
+		21228E2D1EC464F800E545D6 /* RecentPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21228E2B1EC464F800E545D6 /* RecentPostTableViewCell.swift */; };
+		21228E2E1EC464F800E545D6 /* RecentPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21228E2C1EC464F800E545D6 /* RecentPostTableViewCell.xib */; };
+		21228E381EC4710400E545D6 /* DDRecentPostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21228E311EC4710400E545D6 /* DDRecentPostData.swift */; };
+		21228E391EC4710400E545D6 /* DDRecentPostDDRecentPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21228E321EC4710400E545D6 /* DDRecentPostDDRecentPostModel.swift */; };
+		21228E3A1EC4710400E545D6 /* DDRecentPostForum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21228E331EC4710400E545D6 /* DDRecentPostForum.swift */; };
+		21228E3B1EC4710400E545D6 /* DDRecentPostSeoSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21228E341EC4710400E545D6 /* DDRecentPostSeoSetting.swift */; };
+		21228E3C1EC4710400E545D6 /* DDRecentPostTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21228E351EC4710400E545D6 /* DDRecentPostTopic.swift */; };
+		21228E3D1EC4710400E545D6 /* DDRecentPostUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21228E361EC4710400E545D6 /* DDRecentPostUser.swift */; };
+		212565861EA6115900235FFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 212565851EA6115900235FFB /* GoogleService-Info.plist */; };
+		212565881EA62A8400235FFB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212565871EA62A8400235FFB /* Social.framework */; };
+		216935A31EB9B0770001A9AF /* AIGNavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216935A21EB9B0770001A9AF /* AIGNavigationExtension.swift */; };
+		216935A51EB9B0C50001A9AF /* AIGColorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216935A41EB9B0C50001A9AF /* AIGColorUtility.swift */; };
+		216935A91EB9E5640001A9AF /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216935A81EB9E5640001A9AF /* NotificationViewController.swift */; };
+		216935AB1EB9E6F40001A9AF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216935AA1EB9E6F40001A9AF /* SettingViewController.swift */; };
+		216935B11EB9EDB20001A9AF /* DDActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216935AD1EB9EDB20001A9AF /* DDActor.swift */; };
+		216935B21EB9EDB20001A9AF /* DDBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216935AE1EB9EDB20001A9AF /* DDBaseClass.swift */; };
+		216935B31EB9EDB20001A9AF /* DDNotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216935AF1EB9EDB20001A9AF /* DDNotificationModel.swift */; };
+		216935B41EB9EDB20001A9AF /* DDNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216935B01EB9EDB20001A9AF /* DDNotifications.swift */; };
+		216935B71EB9F33B0001A9AF /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216935B61EB9F33B0001A9AF /* NotificationTableViewCell.swift */; };
+		216F6EDE1EC2F57A0019A06D /* DealsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F6EDC1EC2F57A0019A06D /* DealsTableViewCell.swift */; };
+		216F6EDF1EC2F57A0019A06D /* DealsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216F6EDD1EC2F57A0019A06D /* DealsTableViewCell.xib */; };
+		21B8DD5A1EB2FEE000C8C73D /* DeviceToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B8DD591EB2FEE000C8C73D /* DeviceToken.swift */; };
+		21B8DD5C1EB2FF5D00C8C73D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B8DD5B1EB2FF5D00C8C73D /* UserNotifications.framework */; };
+		21D7D0F01EAE1C0D002979F6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7D0EF1EAE1C0D002979F6 /* Reachability.swift */; };
+		21DE98431E9CA9980010DA63 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DE98421E9CA9980010DA63 /* CustomTextField.swift */; };
+		21DE98481E9CE53C0010DA63 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DE98471E9CE53C0010DA63 /* UtilityClass.swift */; };
+		21DE984A1E9CF91F0010DA63 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DE98491E9CF91F0010DA63 /* ForgotViewController.swift */; };
+		21E0BA7B1EC2DFF9004CAB00 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0BA731EC2DFF9004CAB00 /* Data.swift */; };
+		21E0BA7C1EC2DFF9004CAB00 /* DDTopDealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0BA741EC2DFF9004CAB00 /* DDTopDealModel.swift */; };
+		21E0BA7D1EC2DFF9004CAB00 /* Deals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0BA751EC2DFF9004CAB00 /* Deals.swift */; };
+		21E0BA7E1EC2DFF9004CAB00 /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0BA761EC2DFF9004CAB00 /* Merchant.swift */; };
+		21E0BA7F1EC2DFF9004CAB00 /* SeoSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0BA771EC2DFF9004CAB00 /* SeoSetting.swift */; };
+		21E0BA801EC2DFF9004CAB00 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0BA781EC2DFF9004CAB00 /* User.swift */; };
+		21E0BA811EC2DFF9004CAB00 /* VoteDownReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0BA791EC2DFF9004CAB00 /* VoteDownReason.swift */; };
 		21F13A851E97921C00CBBB94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F13A841E97921C00CBBB94 /* AppDelegate.swift */; };
-		21F13A871E97921C00CBBB94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F13A861E97921C00CBBB94 /* ViewController.swift */; };
-		21F13A8A1E97921C00CBBB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F13A881E97921C00CBBB94 /* Main.storyboard */; };
 		21F13A8C1E97921C00CBBB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F13A8B1E97921C00CBBB94 /* Assets.xcassets */; };
 		21F13A8F1E97921C00CBBB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F13A8D1E97921C00CBBB94 /* LaunchScreen.storyboard */; };
 		21F13A9A1E97921C00CBBB94 /* DesidimeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F13A991E97921C00CBBB94 /* DesidimeAppTests.swift */; };
 		21F13AA51E97921C00CBBB94 /* DesidimeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F13AA41E97921C00CBBB94 /* DesidimeAppUITests.swift */; };
+		21F13AB81E9794C600CBBB94 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F13AB61E9794C600CBBB94 /* Home.storyboard */; };
+		21F13AB91E9794C600CBBB94 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F13AB71E9794C600CBBB94 /* Login.storyboard */; };
+		21F13ABF1E9795AB00CBBB94 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F13ABB1E9795AA00CBBB94 /* HomeViewController.swift */; };
+		21F13AC01E9795AB00CBBB94 /* IntroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F13ABC1E9795AB00CBBB94 /* IntroCollectionViewCell.swift */; };
+		21F13AC11E9795AB00CBBB94 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F13ABD1E9795AB00CBBB94 /* IntroViewController.swift */; };
+		21F13AC21E9795AB00CBBB94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F13ABE1E9795AB00CBBB94 /* LoginViewController.swift */; };
+		21FAB9931EA4C7FD00909548 /* RVLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAB9921EA4C7FD00909548 /* RVLoginModel.swift */; };
+		21FAB9951EA4CC4000909548 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FAB9941EA4CC4000909548 /* StoreKit.framework */; };
+		21FAB9971EA4CC4700909548 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FAB9961EA4CC4700909548 /* SystemConfiguration.framework */; };
+		21FAB9991EA4CC5400909548 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FAB9981EA4CC5400909548 /* AddressBook.framework */; };
+		81DE1E717C832E9D3AC91E15 /* Pods_DesidimeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36AFA0A4D947878DC6AAEF5 /* Pods_DesidimeAppTests.framework */; };
+		D682EAC28F2F765F6C6FE4CF /* Pods_DesidimeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA201252EE372ACE5BF4C34F /* Pods_DesidimeApp.framework */; };
+		FB05392C3B0DE274D72823E4 /* Pods_DesidimeAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7A31436B637013D468210C /* Pods_DesidimeAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +90,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CF1C002E0BBF15B5A0CE942 /* Pods-DesidimeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesidimeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesidimeApp/Pods-DesidimeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1E39431C6E7F846770A561FD /* Pods-DesidimeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesidimeAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesidimeAppTests/Pods-DesidimeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2101D1E61EAF154700F8997C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2101D1E81EAF154E00F8997C /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		2101D1EA1EAF34E000F8997C /* DesidimeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesidimeApp.entitlements; sourceTree = "<group>"; };
+		21118ECC1E9B9151008A9D2A /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		211B7D6D1EBAEEEB00793CDC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		211B7D6F1EBAEF0000793CDC /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		211B7D711EBC411900793CDC /* NewSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSettingTableViewController.swift; sourceTree = "<group>"; };
+		211E078B1EC4333500915E5E /* DDForumData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDForumData.swift; sourceTree = "<group>"; };
+		211E078C1EC4333500915E5E /* DDForumDDForumListingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDForumDDForumListingModel.swift; sourceTree = "<group>"; };
+		211E078D1EC4333500915E5E /* DDForumSeoSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDForumSeoSetting.swift; sourceTree = "<group>"; };
+		21228E271EC44A2100E545D6 /* ForumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumTableViewCell.swift; sourceTree = "<group>"; };
+		21228E281EC44A2100E545D6 /* ForumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForumTableViewCell.xib; sourceTree = "<group>"; };
+		21228E2B1EC464F800E545D6 /* RecentPostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentPostTableViewCell.swift; sourceTree = "<group>"; };
+		21228E2C1EC464F800E545D6 /* RecentPostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentPostTableViewCell.xib; sourceTree = "<group>"; };
+		21228E311EC4710400E545D6 /* DDRecentPostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDRecentPostData.swift; sourceTree = "<group>"; };
+		21228E321EC4710400E545D6 /* DDRecentPostDDRecentPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDRecentPostDDRecentPostModel.swift; sourceTree = "<group>"; };
+		21228E331EC4710400E545D6 /* DDRecentPostForum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDRecentPostForum.swift; sourceTree = "<group>"; };
+		21228E341EC4710400E545D6 /* DDRecentPostSeoSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDRecentPostSeoSetting.swift; sourceTree = "<group>"; };
+		21228E351EC4710400E545D6 /* DDRecentPostTopic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDRecentPostTopic.swift; sourceTree = "<group>"; };
+		21228E361EC4710400E545D6 /* DDRecentPostUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDRecentPostUser.swift; sourceTree = "<group>"; };
+		212565851EA6115900235FFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		212565871EA62A8400235FFB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		216935A21EB9B0770001A9AF /* AIGNavigationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIGNavigationExtension.swift; sourceTree = "<group>"; };
+		216935A41EB9B0C50001A9AF /* AIGColorUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIGColorUtility.swift; sourceTree = "<group>"; };
+		216935A81EB9E5640001A9AF /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		216935AA1EB9E6F40001A9AF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		216935AD1EB9EDB20001A9AF /* DDActor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDActor.swift; sourceTree = "<group>"; };
+		216935AE1EB9EDB20001A9AF /* DDBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDBaseClass.swift; sourceTree = "<group>"; };
+		216935AF1EB9EDB20001A9AF /* DDNotificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDNotificationModel.swift; sourceTree = "<group>"; };
+		216935B01EB9EDB20001A9AF /* DDNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDNotifications.swift; sourceTree = "<group>"; };
+		216935B61EB9F33B0001A9AF /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		216F6EDC1EC2F57A0019A06D /* DealsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsTableViewCell.swift; sourceTree = "<group>"; };
+		216F6EDD1EC2F57A0019A06D /* DealsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DealsTableViewCell.xib; sourceTree = "<group>"; };
+		21B8DD591EB2FEE000C8C73D /* DeviceToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceToken.swift; sourceTree = "<group>"; };
+		21B8DD5B1EB2FF5D00C8C73D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		21D7D0EF1EAE1C0D002979F6 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		21DE98421E9CA9980010DA63 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		21DE98471E9CE53C0010DA63 /* UtilityClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
+		21DE98491E9CF91F0010DA63 /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		21E0BA731EC2DFF9004CAB00 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		21E0BA741EC2DFF9004CAB00 /* DDTopDealModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDTopDealModel.swift; sourceTree = "<group>"; };
+		21E0BA751EC2DFF9004CAB00 /* Deals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deals.swift; sourceTree = "<group>"; };
+		21E0BA761EC2DFF9004CAB00 /* Merchant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
+		21E0BA771EC2DFF9004CAB00 /* SeoSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeoSetting.swift; sourceTree = "<group>"; };
+		21E0BA781EC2DFF9004CAB00 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		21E0BA791EC2DFF9004CAB00 /* VoteDownReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteDownReason.swift; sourceTree = "<group>"; };
 		21F13A811E97921C00CBBB94 /* DesidimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesidimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F13A841E97921C00CBBB94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21F13A861E97921C00CBBB94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		21F13A891E97921C00CBBB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21F13A8B1E97921C00CBBB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21F13A8E1E97921C00CBBB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F13A901E97921C00CBBB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +149,24 @@
 		21F13AA01E97921C00CBBB94 /* DesidimeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesidimeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F13AA41E97921C00CBBB94 /* DesidimeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesidimeAppUITests.swift; sourceTree = "<group>"; };
 		21F13AA61E97921C00CBBB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F13AB41E9793A500CBBB94 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		21F13AB61E9794C600CBBB94 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		21F13AB71E9794C600CBBB94 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		21F13ABB1E9795AA00CBBB94 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		21F13ABC1E9795AB00CBBB94 /* IntroCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroCollectionViewCell.swift; sourceTree = "<group>"; };
+		21F13ABD1E9795AB00CBBB94 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		21F13ABE1E9795AB00CBBB94 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		21FAB9921EA4C7FD00909548 /* RVLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVLoginModel.swift; sourceTree = "<group>"; };
+		21FAB9941EA4CC4000909548 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		21FAB9961EA4CC4700909548 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		21FAB9981EA4CC5400909548 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		40F84636EC0C678ACA918E10 /* Pods-DesidimeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesidimeAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesidimeAppTests/Pods-DesidimeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5752EF0391EA36F82FFAF79D /* Pods-DesidimeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesidimeApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesidimeApp/Pods-DesidimeApp.release.xcconfig"; sourceTree = "<group>"; };
+		5CF0D309209F84BA79862A61 /* Pods-DesidimeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesidimeAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesidimeAppUITests/Pods-DesidimeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D2734B4C982C98D30B3CCF3 /* Pods-DesidimeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesidimeAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesidimeAppUITests/Pods-DesidimeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E7A31436B637013D468210C /* Pods_DesidimeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesidimeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA201252EE372ACE5BF4C34F /* Pods_DesidimeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesidimeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36AFA0A4D947878DC6AAEF5 /* Pods_DesidimeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesidimeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +174,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B8DD5C1EB2FF5D00C8C73D /* UserNotifications.framework in Frameworks */,
+				2101D1E91EAF154E00F8997C /* Photos.framework in Frameworks */,
+				2101D1E71EAF154700F8997C /* AssetsLibrary.framework in Frameworks */,
+				211B7D701EBAEF0000793CDC /* NetworkExtension.framework in Frameworks */,
+				212565881EA62A8400235FFB /* Social.framework in Frameworks */,
+				211B7D6E1EBAEEEB00793CDC /* MapKit.framework in Frameworks */,
+				21FAB9991EA4CC5400909548 /* AddressBook.framework in Frameworks */,
+				21FAB9971EA4CC4700909548 /* SystemConfiguration.framework in Frameworks */,
+				21FAB9951EA4CC4000909548 /* StoreKit.framework in Frameworks */,
+				D682EAC28F2F765F6C6FE4CF /* Pods_DesidimeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +191,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DE1E717C832E9D3AC91E15 /* Pods_DesidimeAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +199,122 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB05392C3B0DE274D72823E4 /* Pods_DesidimeAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CA066EFD7B9ADF44F290E05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				211B7D6F1EBAEF0000793CDC /* NetworkExtension.framework */,
+				211B7D6D1EBAEEEB00793CDC /* MapKit.framework */,
+				21B8DD5B1EB2FF5D00C8C73D /* UserNotifications.framework */,
+				2101D1E81EAF154E00F8997C /* Photos.framework */,
+				2101D1E61EAF154700F8997C /* AssetsLibrary.framework */,
+				212565871EA62A8400235FFB /* Social.framework */,
+				21FAB9981EA4CC5400909548 /* AddressBook.framework */,
+				21FAB9961EA4CC4700909548 /* SystemConfiguration.framework */,
+				21FAB9941EA4CC4000909548 /* StoreKit.framework */,
+				AA201252EE372ACE5BF4C34F /* Pods_DesidimeApp.framework */,
+				E36AFA0A4D947878DC6AAEF5 /* Pods_DesidimeAppTests.framework */,
+				9E7A31436B637013D468210C /* Pods_DesidimeAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		210681251E9BA040003222BD /* CommonClass */ = {
+			isa = PBXGroup;
+			children = (
+				216935A21EB9B0770001A9AF /* AIGNavigationExtension.swift */,
+				21DE98421E9CA9980010DA63 /* CustomTextField.swift */,
+				21DE98471E9CE53C0010DA63 /* UtilityClass.swift */,
+				216935A41EB9B0C50001A9AF /* AIGColorUtility.swift */,
+			);
+			name = CommonClass;
+			sourceTree = "<group>";
+		};
+		211E078A1EC4333500915E5E /* ForumListModel */ = {
+			isa = PBXGroup;
+			children = (
+				211E078B1EC4333500915E5E /* DDForumData.swift */,
+				211E078C1EC4333500915E5E /* DDForumDDForumListingModel.swift */,
+				211E078D1EC4333500915E5E /* DDForumSeoSetting.swift */,
+			);
+			path = ForumListModel;
+			sourceTree = "<group>";
+		};
+		21228E2F1EC4710400E545D6 /* RecentPosts */ = {
+			isa = PBXGroup;
+			children = (
+				21228E311EC4710400E545D6 /* DDRecentPostData.swift */,
+				21228E321EC4710400E545D6 /* DDRecentPostDDRecentPostModel.swift */,
+				21228E331EC4710400E545D6 /* DDRecentPostForum.swift */,
+				21228E341EC4710400E545D6 /* DDRecentPostSeoSetting.swift */,
+				21228E351EC4710400E545D6 /* DDRecentPostTopic.swift */,
+				21228E361EC4710400E545D6 /* DDRecentPostUser.swift */,
+			);
+			path = RecentPosts;
+			sourceTree = "<group>";
+		};
+		216935AC1EB9EDB20001A9AF /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				216935AD1EB9EDB20001A9AF /* DDActor.swift */,
+				216935AE1EB9EDB20001A9AF /* DDBaseClass.swift */,
+				216935AF1EB9EDB20001A9AF /* DDNotificationModel.swift */,
+				216935B01EB9EDB20001A9AF /* DDNotifications.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		216935B51EB9F2F30001A9AF /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				216935B61EB9F33B0001A9AF /* NotificationTableViewCell.swift */,
+				216F6EDC1EC2F57A0019A06D /* DealsTableViewCell.swift */,
+				216F6EDD1EC2F57A0019A06D /* DealsTableViewCell.xib */,
+				21228E271EC44A2100E545D6 /* ForumTableViewCell.swift */,
+				21228E281EC44A2100E545D6 /* ForumTableViewCell.xib */,
+				21228E2B1EC464F800E545D6 /* RecentPostTableViewCell.swift */,
+				21228E2C1EC464F800E545D6 /* RecentPostTableViewCell.xib */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		21E0BA711EC2DFF9004CAB00 /* TopDealModel */ = {
+			isa = PBXGroup;
+			children = (
+				21E0BA731EC2DFF9004CAB00 /* Data.swift */,
+				21E0BA741EC2DFF9004CAB00 /* DDTopDealModel.swift */,
+				21E0BA751EC2DFF9004CAB00 /* Deals.swift */,
+				21E0BA761EC2DFF9004CAB00 /* Merchant.swift */,
+				21E0BA771EC2DFF9004CAB00 /* SeoSetting.swift */,
+				21E0BA781EC2DFF9004CAB00 /* User.swift */,
+				21E0BA791EC2DFF9004CAB00 /* VoteDownReason.swift */,
+			);
+			path = TopDealModel;
+			sourceTree = "<group>";
+		};
 		21F13A781E97921C00CBBB94 = {
 			isa = PBXGroup;
 			children = (
+				21F13AB41E9793A500CBBB94 /* BridgingHeader.h */,
+				21D7D0EF1EAE1C0D002979F6 /* Reachability.swift */,
+				21B8DD591EB2FEE000C8C73D /* DeviceToken.swift */,
+				216935B51EB9F2F30001A9AF /* TableCell */,
+				21FAB98C1EA49B7300909548 /* ModelClasses */,
+				210681251E9BA040003222BD /* CommonClass */,
+				21F13ABA1E97958700CBBB94 /* ViewClasses */,
+				21F13AB51E9794AB00CBBB94 /* Storyboard */,
 				21F13A831E97921C00CBBB94 /* DesidimeApp */,
 				21F13A981E97921C00CBBB94 /* DesidimeAppTests */,
 				21F13AA31E97921C00CBBB94 /* DesidimeAppUITests */,
 				21F13A821E97921C00CBBB94 /* Products */,
+				D3E3FEDD7C5E66D5214BB5C1 /* Pods */,
+				0CA066EFD7B9ADF44F290E05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +331,11 @@
 		21F13A831E97921C00CBBB94 /* DesidimeApp */ = {
 			isa = PBXGroup;
 			children = (
+				2101D1EA1EAF34E000F8997C /* DesidimeApp.entitlements */,
 				21F13A841E97921C00CBBB94 /* AppDelegate.swift */,
-				21F13A861E97921C00CBBB94 /* ViewController.swift */,
-				21F13A881E97921C00CBBB94 /* Main.storyboard */,
 				21F13A8B1E97921C00CBBB94 /* Assets.xcassets */,
 				21F13A8D1E97921C00CBBB94 /* LaunchScreen.storyboard */,
+				212565851EA6115900235FFB /* GoogleService-Info.plist */,
 				21F13A901E97921C00CBBB94 /* Info.plist */,
 			);
 			path = DesidimeApp;
@@ -125,6 +359,64 @@
 			path = DesidimeAppUITests;
 			sourceTree = "<group>";
 		};
+		21F13AB51E9794AB00CBBB94 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				21F13AB61E9794C600CBBB94 /* Home.storyboard */,
+				21F13AB71E9794C600CBBB94 /* Login.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		21F13ABA1E97958700CBBB94 /* ViewClasses */ = {
+			isa = PBXGroup;
+			children = (
+				21F13ABB1E9795AA00CBBB94 /* HomeViewController.swift */,
+				216935AA1EB9E6F40001A9AF /* SettingViewController.swift */,
+				21F13ABC1E9795AB00CBBB94 /* IntroCollectionViewCell.swift */,
+				21F13ABD1E9795AB00CBBB94 /* IntroViewController.swift */,
+				21F13ABE1E9795AB00CBBB94 /* LoginViewController.swift */,
+				21118ECC1E9B9151008A9D2A /* SignupViewController.swift */,
+				21DE98491E9CF91F0010DA63 /* ForgotViewController.swift */,
+				216935A81EB9E5640001A9AF /* NotificationViewController.swift */,
+				211B7D711EBC411900793CDC /* NewSettingTableViewController.swift */,
+			);
+			name = ViewClasses;
+			sourceTree = "<group>";
+		};
+		21FAB98C1EA49B7300909548 /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				21228E2F1EC4710400E545D6 /* RecentPosts */,
+				211E078A1EC4333500915E5E /* ForumListModel */,
+				21E0BA711EC2DFF9004CAB00 /* TopDealModel */,
+				216935AC1EB9EDB20001A9AF /* Notification */,
+				21FAB98D1EA49B9500909548 /* LoginModel */,
+			);
+			name = ModelClasses;
+			sourceTree = "<group>";
+		};
+		21FAB98D1EA49B9500909548 /* LoginModel */ = {
+			isa = PBXGroup;
+			children = (
+				21FAB9921EA4C7FD00909548 /* RVLoginModel.swift */,
+			);
+			path = LoginModel;
+			sourceTree = "<group>";
+		};
+		D3E3FEDD7C5E66D5214BB5C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1C002E0BBF15B5A0CE942 /* Pods-DesidimeApp.debug.xcconfig */,
+				5752EF0391EA36F82FFAF79D /* Pods-DesidimeApp.release.xcconfig */,
+				40F84636EC0C678ACA918E10 /* Pods-DesidimeAppTests.debug.xcconfig */,
+				1E39431C6E7F846770A561FD /* Pods-DesidimeAppTests.release.xcconfig */,
+				5CF0D309209F84BA79862A61 /* Pods-DesidimeAppUITests.debug.xcconfig */,
+				9D2734B4C982C98D30B3CCF3 /* Pods-DesidimeAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +424,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21F13AA91E97921C00CBBB94 /* Build configuration list for PBXNativeTarget "DesidimeApp" */;
 			buildPhases = (
+				ABE1F568C71DBDEEBF22D08B /* [CP] Check Pods Manifest.lock */,
 				21F13A7D1E97921C00CBBB94 /* Sources */,
 				21F13A7E1E97921C00CBBB94 /* Frameworks */,
 				21F13A7F1E97921C00CBBB94 /* Resources */,
+				8C99BBCF5CE57E2723AE5013 /* [CP] Embed Pods Frameworks */,
+				E12519903EAE90808D5AB2ED /* [CP] Copy Pods Resources */,
+				21F13AD81E97987A00CBBB94 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +445,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21F13AAC1E97921C00CBBB94 /* Build configuration list for PBXNativeTarget "DesidimeAppTests" */;
 			buildPhases = (
+				841D1196226E187864D0A9E7 /* [CP] Check Pods Manifest.lock */,
 				21F13A911E97921C00CBBB94 /* Sources */,
 				21F13A921E97921C00CBBB94 /* Frameworks */,
 				21F13A931E97921C00CBBB94 /* Resources */,
+				517DED74BD54F820876A90A1 /* [CP] Embed Pods Frameworks */,
+				D02BB5068C4E004FAA62D680 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +466,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21F13AAF1E97921C00CBBB94 /* Build configuration list for PBXNativeTarget "DesidimeAppUITests" */;
 			buildPhases = (
+				3A8AEF47EC459D62024C6A62 /* [CP] Check Pods Manifest.lock */,
 				21F13A9C1E97921C00CBBB94 /* Sources */,
 				21F13A9D1E97921C00CBBB94 /* Frameworks */,
 				21F13A9E1E97921C00CBBB94 /* Resources */,
+				5379D6804DE678B775E6E27A /* [CP] Embed Pods Frameworks */,
+				2B7079267D8C3EA3668AF31B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +497,23 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = BQQ26Y4DMX;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					21F13A941E97921C00CBBB94 = {
 						CreatedOnToolsVersion = 8.3;
@@ -236,8 +555,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F13A8F1E97921C00CBBB94 /* LaunchScreen.storyboard in Resources */,
+				216F6EDF1EC2F57A0019A06D /* DealsTableViewCell.xib in Resources */,
+				21228E2A1EC44A2100E545D6 /* ForumTableViewCell.xib in Resources */,
+				21F13AB81E9794C600CBBB94 /* Home.storyboard in Resources */,
+				212565861EA6115900235FFB /* GoogleService-Info.plist in Resources */,
+				21F13AB91E9794C600CBBB94 /* Login.storyboard in Resources */,
+				21228E2E1EC464F800E545D6 /* RecentPostTableViewCell.xib in Resources */,
 				21F13A8C1E97921C00CBBB94 /* Assets.xcassets in Resources */,
-				21F13A8A1E97921C00CBBB94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +581,203 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21F13AD81E97987A00CBBB94 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 6bf4080a18547a3403fda99e04ec9d707a1719f6 574d4d57abbd8d07aa875f27481e18a91ff2752155af8b30e7919a562c1e14fc";
+		};
+		2B7079267D8C3EA3668AF31B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesidimeAppUITests/Pods-DesidimeAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A8AEF47EC459D62024C6A62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		517DED74BD54F820876A90A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesidimeAppTests/Pods-DesidimeAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5379D6804DE678B775E6E27A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesidimeAppUITests/Pods-DesidimeAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		841D1196226E187864D0A9E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C99BBCF5CE57E2723AE5013 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesidimeApp/Pods-DesidimeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE1F568C71DBDEEBF22D08B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D02BB5068C4E004FAA62D680 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesidimeAppTests/Pods-DesidimeAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E12519903EAE90808D5AB2ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesidimeApp/Pods-DesidimeApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21F13A7D1E97921C00CBBB94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F13A871E97921C00CBBB94 /* ViewController.swift in Sources */,
+				216935B71EB9F33B0001A9AF /* NotificationTableViewCell.swift in Sources */,
+				21E0BA811EC2DFF9004CAB00 /* VoteDownReason.swift in Sources */,
+				211B7D721EBC411900793CDC /* NewSettingTableViewController.swift in Sources */,
+				21228E291EC44A2100E545D6 /* ForumTableViewCell.swift in Sources */,
+				21118ECD1E9B9151008A9D2A /* SignupViewController.swift in Sources */,
+				21228E3C1EC4710400E545D6 /* DDRecentPostTopic.swift in Sources */,
+				21F13AC21E9795AB00CBBB94 /* LoginViewController.swift in Sources */,
+				21DE984A1E9CF91F0010DA63 /* ForgotViewController.swift in Sources */,
+				216935AB1EB9E6F40001A9AF /* SettingViewController.swift in Sources */,
+				216935B31EB9EDB20001A9AF /* DDNotificationModel.swift in Sources */,
+				21228E391EC4710400E545D6 /* DDRecentPostDDRecentPostModel.swift in Sources */,
+				21E0BA7B1EC2DFF9004CAB00 /* Data.swift in Sources */,
+				21E0BA801EC2DFF9004CAB00 /* User.swift in Sources */,
+				21E0BA7E1EC2DFF9004CAB00 /* Merchant.swift in Sources */,
+				216F6EDE1EC2F57A0019A06D /* DealsTableViewCell.swift in Sources */,
+				21F13AC11E9795AB00CBBB94 /* IntroViewController.swift in Sources */,
 				21F13A851E97921C00CBBB94 /* AppDelegate.swift in Sources */,
+				216935A91EB9E5640001A9AF /* NotificationViewController.swift in Sources */,
+				21228E381EC4710400E545D6 /* DDRecentPostData.swift in Sources */,
+				21228E3D1EC4710400E545D6 /* DDRecentPostUser.swift in Sources */,
+				216935B11EB9EDB20001A9AF /* DDActor.swift in Sources */,
+				211E078F1EC4333500915E5E /* DDForumDDForumListingModel.swift in Sources */,
+				21B8DD5A1EB2FEE000C8C73D /* DeviceToken.swift in Sources */,
+				21228E3A1EC4710400E545D6 /* DDRecentPostForum.swift in Sources */,
+				216935A31EB9B0770001A9AF /* AIGNavigationExtension.swift in Sources */,
+				211E078E1EC4333500915E5E /* DDForumData.swift in Sources */,
+				21FAB9931EA4C7FD00909548 /* RVLoginModel.swift in Sources */,
+				216935A51EB9B0C50001A9AF /* AIGColorUtility.swift in Sources */,
+				21228E2D1EC464F800E545D6 /* RecentPostTableViewCell.swift in Sources */,
+				21DE98431E9CA9980010DA63 /* CustomTextField.swift in Sources */,
+				21E0BA7D1EC2DFF9004CAB00 /* Deals.swift in Sources */,
+				21E0BA7C1EC2DFF9004CAB00 /* DDTopDealModel.swift in Sources */,
+				21E0BA7F1EC2DFF9004CAB00 /* SeoSetting.swift in Sources */,
+				216935B41EB9EDB20001A9AF /* DDNotifications.swift in Sources */,
+				21D7D0F01EAE1C0D002979F6 /* Reachability.swift in Sources */,
+				21F13ABF1E9795AB00CBBB94 /* HomeViewController.swift in Sources */,
+				21228E3B1EC4710400E545D6 /* DDRecentPostSeoSetting.swift in Sources */,
+				21F13AC01E9795AB00CBBB94 /* IntroCollectionViewCell.swift in Sources */,
+				21DE98481E9CE53C0010DA63 /* UtilityClass.swift in Sources */,
+				216935B21EB9EDB20001A9AF /* DDBaseClass.swift in Sources */,
+				211E07901EC4333500915E5E /* DDForumSeoSetting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +813,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		21F13A881E97921C00CBBB94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21F13A891E97921C00CBBB94 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		21F13A8D1E97921C00CBBB94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -359,7 +865,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +910,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -415,32 +921,49 @@
 		};
 		21F13AAA1E97921C00CBBB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF1C002E0BBF15B5A0CE942 /* Pods-DesidimeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DesidimeApp/DesidimeApp.entitlements;
 				DEVELOPMENT_TEAM = BQQ26Y4DMX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DesidimeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DD.DesidimeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desiDime.Dimeapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		21F13AAB1E97921C00CBBB94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5752EF0391EA36F82FFAF79D /* Pods-DesidimeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DesidimeApp/DesidimeApp.entitlements;
 				DEVELOPMENT_TEAM = BQQ26Y4DMX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DesidimeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DD.DesidimeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desiDime.Dimeapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		21F13AAD1E97921C00CBBB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F84636EC0C678ACA918E10 /* Pods-DesidimeAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +979,7 @@
 		};
 		21F13AAE1E97921C00CBBB94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E39431C6E7F846770A561FD /* Pods-DesidimeAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +995,7 @@
 		};
 		21F13AB01E97921C00CBBB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF0D309209F84BA79862A61 /* Pods-DesidimeAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BQQ26Y4DMX;
@@ -485,6 +1010,7 @@
 		};
 		21F13AB11E97921C00CBBB94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2734B4C982C98D30B3CCF3 /* Pods-DesidimeAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BQQ26Y4DMX;
@@ -516,6 +1042,7 @@
 				21F13AAB1E97921C00CBBB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21F13AAC1E97921C00CBBB94 /* Build configuration list for PBXNativeTarget "DesidimeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +1051,7 @@
 				21F13AAE1E97921C00CBBB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21F13AAF1E97921C00CBBB94 /* Build configuration list for PBXNativeTarget "DesidimeAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +1060,7 @@
 				21F13AB11E97921C00CBBB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

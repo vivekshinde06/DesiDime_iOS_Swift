@@ -1,0 +1,6 @@
+framework module Pods_DesidimeAppTests {
+  umbrella header "Pods-DesidimeAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

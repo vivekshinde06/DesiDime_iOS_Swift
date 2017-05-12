@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ForumTableViewCell" rowHeight="136" id="KGk-i7-Jjw" customClass="ForumTableViewCell" customModule="DesidimeApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="116"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="115.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zDW-ub-2sA">
+                        <rect key="frame" x="5" y="5" width="310" height="105"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0a-Jb-Fpv">
+                                <rect key="frame" x="8" y="8" width="294" height="25"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="jb2-DH-PfN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripton" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4a-wJ-ma8">
+                                <rect key="frame" x="8" y="42" width="294" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="8Or-Fk-eeC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoJ-IQ-i5N">
+                                <rect key="frame" x="8" y="68" width="95" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="I8p-g5-lvU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Button" image="ftopics">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jef-RE-bow">
+                                <rect key="frame" x="107" y="68" width="95" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="yU1-iR-x9s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Button" image="fposts">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ohb-Qz-YXL">
+                                <rect key="frame" x="207" y="68" width="95" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="uwJ-Q8-1pi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Button" image="Time">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jef-RE-bow" firstAttribute="width" secondItem="qoJ-IQ-i5N" secondAttribute="width" id="BuF-w2-na9"/>
+                            <constraint firstAttribute="trailing" secondItem="Ohb-Qz-YXL" secondAttribute="trailing" constant="8" id="CIP-bc-5gq"/>
+                            <constraint firstItem="U4a-wJ-ma8" firstAttribute="leading" secondItem="zDW-ub-2sA" secondAttribute="leading" constant="8" id="Cgl-fp-cHh"/>
+                            <constraint firstItem="Ohb-Qz-YXL" firstAttribute="top" secondItem="U4a-wJ-ma8" secondAttribute="bottom" constant="-4" id="Fvf-Ic-gge"/>
+                            <constraint firstItem="jef-RE-bow" firstAttribute="leading" secondItem="qoJ-IQ-i5N" secondAttribute="trailing" constant="4" id="Ghh-rf-gfW"/>
+                            <constraint firstItem="qoJ-IQ-i5N" firstAttribute="top" secondItem="U4a-wJ-ma8" secondAttribute="bottom" constant="-4" id="H1X-7x-AcS"/>
+                            <constraint firstAttribute="trailing" secondItem="D0a-Jb-Fpv" secondAttribute="trailing" constant="8" id="JzH-5o-Pj9"/>
+                            <constraint firstItem="D0a-Jb-Fpv" firstAttribute="leading" secondItem="zDW-ub-2sA" secondAttribute="leading" constant="8" id="L2P-HV-cYr"/>
+                            <constraint firstAttribute="trailing" secondItem="U4a-wJ-ma8" secondAttribute="trailing" constant="8" id="Mot-sI-jiv"/>
+                            <constraint firstItem="Ohb-Qz-YXL" firstAttribute="width" secondItem="qoJ-IQ-i5N" secondAttribute="width" id="OKZ-ab-7QA"/>
+                            <constraint firstAttribute="bottom" secondItem="qoJ-IQ-i5N" secondAttribute="bottom" constant="7" id="Q5S-G7-wrm"/>
+                            <constraint firstItem="qoJ-IQ-i5N" firstAttribute="leading" secondItem="zDW-ub-2sA" secondAttribute="leading" constant="8" id="SMq-5s-amH"/>
+                            <constraint firstAttribute="bottom" secondItem="jef-RE-bow" secondAttribute="bottom" constant="7" id="X1D-WT-3N5"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="YCc-pl-5N6"/>
+                            <constraint firstItem="Ohb-Qz-YXL" firstAttribute="top" secondItem="U4a-wJ-ma8" secondAttribute="bottom" constant="-4" id="Zdy-hy-2Oo"/>
+                            <constraint firstAttribute="bottom" secondItem="Ohb-Qz-YXL" secondAttribute="bottom" constant="7" id="g4c-k7-cOb"/>
+                            <constraint firstItem="D0a-Jb-Fpv" firstAttribute="top" secondItem="zDW-ub-2sA" secondAttribute="top" constant="8" id="k1Z-fC-X6o"/>
+                            <constraint firstItem="jef-RE-bow" firstAttribute="top" secondItem="U4a-wJ-ma8" secondAttribute="bottom" constant="-4" id="lkv-dN-8y0"/>
+                            <constraint firstItem="Ohb-Qz-YXL" firstAttribute="leading" secondItem="jef-RE-bow" secondAttribute="trailing" constant="5" id="sm6-kq-quN"/>
+                            <constraint firstItem="U4a-wJ-ma8" firstAttribute="top" secondItem="D0a-Jb-Fpv" secondAttribute="bottom" constant="9" id="up8-af-vaP"/>
+                            <constraint firstItem="U4a-wJ-ma8" firstAttribute="top" secondItem="D0a-Jb-Fpv" secondAttribute="bottom" constant="9" id="zcz-al-lYq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zDW-ub-2sA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="B1j-ns-0C6"/>
+                    <constraint firstAttribute="trailing" secondItem="zDW-ub-2sA" secondAttribute="trailing" constant="5" id="JO0-D3-wGl"/>
+                    <constraint firstItem="zDW-ub-2sA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="jNk-A4-XeI"/>
+                    <constraint firstAttribute="bottom" secondItem="zDW-ub-2sA" secondAttribute="bottom" constant="5" id="uLc-Fi-wO5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="btnLike" destination="qoJ-IQ-i5N" id="QPM-kf-v6y"/>
+                <outlet property="btnMsg" destination="jef-RE-bow" id="Mla-qV-nvJ"/>
+                <outlet property="btnTime" destination="Ohb-Qz-YXL" id="oDc-fQ-tRh"/>
+                <outlet property="cardView" destination="zDW-ub-2sA" id="DH8-MY-x1r"/>
+                <outlet property="lblDescription" destination="U4a-wJ-ma8" id="X0S-2h-Iec"/>
+                <outlet property="lblTitle" destination="D0a-Jb-Fpv" id="0XX-kk-yet"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="96"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Time" width="20" height="20"/>
+        <image name="fposts" width="20" height="20"/>
+        <image name="ftopics" width="20" height="20"/>
+    </resources>
+</document>
